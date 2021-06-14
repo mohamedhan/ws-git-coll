@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Ayoub from "./components/ayoub"
+import Eya from "./components/eya"
 import Mohamed from './components/Mohamed';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ayoub /> 
+      <Eya />
+
+
+
       <Mohamed />
+
     </div>
   );
 }
